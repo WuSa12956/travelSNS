@@ -1,0 +1,187 @@
+.outdoors{
+    width: 100%;
+    height: 100%;
+    @include flexbox();
+    @include flex-direction(column);
+    overflow: hidden;
+    header{
+      ul{
+            width: 100%;
+            height: .44rem;
+            background-color: white;
+            color: orange;
+            @include flexbox();
+            li{
+                &:nth-child(1){
+                    @include flex(1);
+                    text-align: center;
+                    line-height: .44rem;
+                    font-size: .18rem; 
+                }
+                &:nth-child(2){
+                    @include flex(3);
+                    line-height: .44rem;
+                    font-size: .22rem;
+                    font-weight: bold;
+                    text-align: center; 
+                }
+                &:nth-child(3){
+                    @include flex(1);  
+                }
+            }
+        }
+        .outdoors-select{
+            width: 100%;
+            background: white;
+           .content-select{
+                width: 90%;
+                background: white;
+                margin: 0 auto;
+                @include box-sizing(border-box);
+                ul{
+                    height: .32rem;
+                    @include flexbox();
+                    width: 100%;
+                    @include border(0 0 1px 0, #000);
+                    @include box-sizing(border-box);
+                    li{
+                        &:nth-child(1){
+                            @include flex(4);  
+                        }
+                        &:nth-child(2){
+                            @include flex(1);
+                            text-align: center;
+                            line-height: .32rem;
+                            font-size: .14rem;
+                            color: black;
+                            b{
+                                font-weight: normal;
+                            }
+                        }
+                    }
+                }
+            } 
+        }
+          
+    }
+    
+    .maincontent{
+        @include flex(1);
+        width: 100%;
+        background: white;
+        overflow: hidden;
+       .outdoors-content{
+            .scroll-content{
+                width: 100%;
+                height: 100%;
+                .listcontent{
+                    width: 100%;
+                    height: 100%;
+                    
+                    .head {
+                        text-align: center;
+                        height: .3rem;
+                        line-height: .3rem;
+                    }
+                    .head img {
+                        display: inline-block;
+                        transform: rotate(180deg);
+                        -webkit-transform: rotate(180deg);
+                        transition: transform 150ms;
+                        -webkit-transition: transform 150ms;
+                        height: .15rem;
+                        width: .15rem;
+                    }
+                    .up {
+                        transform: rotate(360deg) !important;
+                        -webkit-transform: rotate(360deg) !important;
+                    }
+                    .foot {
+                        text-align: center;
+                        height: .3rem;
+                        line-height: .3rem;
+                    }
+                    .foot img {
+                        display: inline-block;
+                        /*transform: rotate(0deg);*/
+                        /*-webkit-transform: rotate(0deg);*/
+                        transition: transform 150ms;
+                        -webkit-transition: transform 150ms;
+                        height: .15rem;
+                        width: .15rem;
+                    }
+                    .down {
+                        transform: rotate(180deg) !important;
+                        -webkit-transform: rotate(180deg) !important;
+                    }
+                    
+                    ul{
+                        width: 100%;
+                        height: 100%;
+                        @include flexbox();
+                        li{
+                            width: 100%;
+                            @include flex(1);
+                            @include flex-direction(column);
+                            position: relative;
+                            &:nth-child(1){
+                                b{
+                                    font-weight: normal;
+                                    text-align: center;
+                                    display: block;
+                                    padding: .05rem;
+                                    @include box-sizing(border-box);
+                                }
+                                img{
+                                    width: 90%;
+                                    height: 85%;
+                                    @include border-radius(.05rem);
+                                    @include box-sizing(border-box);
+                                    margin-left: 5%;
+                                }
+                            }
+                        }
+                    }
+                }  
+            }
+        } 
+    }
+    
+    
+    footer{
+        height: .44rem;
+        background-color: gray;
+        ul{
+            width: 100%;
+            height: .44rem;
+            @include flexbox();
+            position: relative;
+            li:nth-child(1){
+                @include flex(5);
+                img{
+                   width: 100%; 
+                }
+                
+            }
+            
+            li:nth-child(2){
+                position: absolute;
+                left: 42%;
+                top: -0.07rem;
+                img{
+                    width: 50%;
+                    height: 50%;
+                }
+                
+            }
+            li:nth-child(3){
+                @include flex(5);
+                img{
+                   width: 100%; 
+                }
+                
+            }
+        }
+    }
+    
+}

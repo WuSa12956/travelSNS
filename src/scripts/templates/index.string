@@ -1,0 +1,27 @@
+<div class="m-index">
+	<div class="m-content hide" action-type="click.tab">
+		<div class="pic">
+			<img action-type="login" src="/travelSNS/images/drawable-xhdpi-v4/flower_out.png"/>
+			<img src="/travelSNS/images/drawable-xhdpi-v4/flower_min.png"/>
+			<img src="/travelSNS/images/drawable-xhdpi-v4/icon_mine.png"/>
+			<img src="/travelSNS/images/drawable-xhdpi-v4/icon_shopping.png"/>
+			<img src="/travelSNS/images/drawable-xhdpi-v4/icon_contact.png"/>
+			<img src="/travelSNS/images/drawable-xhdpi-v4/icon_favourite.png"/>
+			<img src="/travelSNS/images/drawable-xhdpi-v4/icon_coupons.png"/>
+		</div>
+	</div>
+    <header>
+    	<ul>
+    		<li><i class="yo-ico">&#xe611;北京市</i></li>
+    		<li><i class="yo-ico">&#xe612;</i><input type="text" name="search" id="search" value="" placeholder="搜索城市,景点,餐饮,酒店"/></li>
+    	</ul>
+    </header>
+    <div class="content-index"></div>
+    <footer>
+    	<ul>
+    		<li action-type="switch.tabs" data-tag="eat"><img src="/travelSNS/images/drawable-xhdpi-v4/food8.png"/></li>
+    		<li action-type="click.tabs"><img src="/travelSNS/images/drawable-xhdpi-v4/menu9.png"/></li>
+    		<li action-type="switch.tabs" data-tag="home"><img src="/travelSNS/images/drawable-xhdpi-v4/at_fun6.png"/></li>
+    	</ul>
+    </footer>
+</div>

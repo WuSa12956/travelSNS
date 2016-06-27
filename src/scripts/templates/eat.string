@@ -1,0 +1,34 @@
+<div class="l-container">
+	<section spa-widget="scroll">
+		<ul class="content-ul">
+			<li>
+				<img src="/travelSNS/images/2-1.jpg"/>
+				<div class="descrection">
+					<p>四季鲜果 ▪ 进口</p>
+					<p>FRIUT IMPORTED</p>
+				</div>
+			</li>
+			<li>
+				<img src="/travelSNS/images/2-2.jpg"/>
+				<div class="descrection">
+					<p>四季鲜果 ▪ 本地</p>
+					<p>FRIUT LOCAL</p>
+				</div>
+			</li>
+			<li>
+				<img src="/travelSNS/images/2-3.jpg"/>
+				<div class="descrection">
+					<p>地域美食 ▪ 零食</p>
+					<p>LOCAL SNACKS</p>
+				</div>
+			</li>
+			<li>
+				<img src="/travelSNS/images/2-4.jpg"/>
+				<div class="descrection">
+					<p>地域美食 ▪ 特产</p>
+					<p>LOCAL FOODS</p>
+				</div>
+			</li>
+		</ul>
+   </section>
+</div>

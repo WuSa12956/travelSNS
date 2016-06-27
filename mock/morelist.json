@@ -1,0 +1,27 @@
+{
+	"res": true,
+	"errcode": -1,
+	"errmsg": "",
+	"data": [
+		{
+			"title":"安徽黄山--黄山 天下第一山",
+			"imgsrc":"/travelSNS/images/2-2.jpg"
+		},
+		{
+			"title":"安徽黄山--齐云山 无双胜境",
+			"imgsrc":"/travelSNS/images/2-3.jpg"
+		},
+		{
+			"title":"江西萍乡--干瀑武功山",
+			"imgsrc":"/travelSNS/images/2-4.jpg"
+		},
+		{
+			"title":"江西鹰潭--龙虎山 中国道都",
+			"imgsrc":"/travelSNS/images/1-1.jpeg"
+		},
+		{
+			"title":"江西九江--庐山 匡庐奇秀",
+			"imgsrc":"/travelSNS/images/1-2.jpg"
+		}
+	]
+}

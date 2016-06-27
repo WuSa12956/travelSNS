@@ -1,0 +1,49 @@
+<div class="outdoors">
+	<header>
+		<ul>
+			<li class="yo-ico" action-type="backhome">&#xe602;</li>
+			<li>户外 ▪ 山水</li>
+			<li></li>
+		</ul>
+		<div class="outdoors-select">
+			<div class="content-select">
+				<ul>
+					<li></li>
+					<li class="yo-ico"><b>筛选</b>&#xe630;</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="maincontent" spa-widget="scroll" data-scroll-id="outdoorsScroll">
+		<div class="outdoors-content">
+			<div class="scroll-content">
+				<div class="listcontent">
+					<div class="head">
+						<img src="/travelSNS/images/arrow.png" width="40" height="40" />
+						<span>下拉刷新...</span>
+					</div>
+					<ul ms-repeat-value="livelist">
+						<li action-type="detail">
+							<b ms-text="value[0].title"></b>
+							<img ms-src="value[0].imgsrc"/>
+						</li>
+					</ul>
+					<div class="foot">
+						<img src="/travelSNS/images/arrow.png" width="40" height="40" />
+						<span>上拉加载更多...</span>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	<footer>
+    	<ul>
+    		<li action-type="switch.tabs" data-tag="eat"><img src="/travelSNS/images/drawable-xhdpi-v4/food8.png"/></li>
+    		<li action-type="click.tabs"><img src="/travelSNS/images/drawable-xhdpi-v4/menu9.png"/></li>
+    		<li action-type="switch.tabs" data-tag="home"><img src="/travelSNS/images/drawable-xhdpi-v4/at_fun6.png"/></li>
+    	</ul>
+    </footer>
+</div>
